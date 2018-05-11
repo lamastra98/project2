@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+/* - INITIALIZE - */
+html, body
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* - BACKGROUND - */
+body
+{
+    background-image: url(./assets/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body
+{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* - TEXT DEFAULTS- */
+body
+{
+    color: white;
+    font-weight: 100;
+    font-family: "VT323", monospace;
+}
+
+
+/* - CONTENT- */
+
+header, h1, h2, h3, .last_paragraph
+{
+    text-align: center;
+    font-weight: 100;
+}
+
+.last_paragraph
+{
+    margin-bottom: 20px;
+}
+
+h1
+{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+h3
+{
+    font-size: 1.5em;
+    font-weight: 110;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 125;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+main
+{
+    flex: 1 0 auto;
+}
+
+section
+{
+    background-color: rgba(32, 32, 32, .5);
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+footer
+{
+    background-color: rgba(32, 32, 32, .5);
+    width: 100%;
+    text-align: center;
+}
+
+/* - FORM - */
+
+form
+{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+input, select
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+table
+{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+th, td, tr
+{
+    text-align: left;
+    border: white 1px solid;
+}
